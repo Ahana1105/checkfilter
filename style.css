@@ -1,0 +1,33 @@
+.heading {
+    color:floralwhite;
+    background-color: darkcyan;
+    width : 500px;
+    height:50px;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    border-radius: 10px;
+    border-width:3px;
+    border-color:black;
+    border-style: ridge;
+}
+
+button {
+    font-size: 22px;
+    height:30px;
+    width:150px;
+    font-family:cursive
+
+}
+
+canvas {
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example{
+from{box-shadow:1px 1px 40px deepskyblue}
+to{box-shadow: 1px 1px 40px deeppink}
+}
