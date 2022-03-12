@@ -36,7 +36,7 @@ image(video, 0, 0, 300, 300);
 //fill(255, 0, 0);
 //stroke(255,0,0);
 //circle(nose_x, nose_y,20)
-image(clown_nose, nose_x - 15, nose_y-15, 40, 40);
+image(clown_nose, nose_x - 20, nose_y-15, 40, 40);
 }
 
 function take_snapshot() {
